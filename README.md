@@ -4,13 +4,15 @@
 &nbsp;
 ### Uso
 
+Você encontrará um exemplo físico [aqui](https://github.com/angeloevangelista/exemplo-api-campanhas/blob/master/exemplo.html)
+
 ```javascript
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="text/javascript">
 
     const tempo='2';
     const tamanho='1';
-    const categoria = 'saude'; 
+    const categoria = 'saude';
     const containerId ='campanha-container';
 
         (function () {
@@ -32,7 +34,7 @@ Note que no trecho de código há algums parâmetros:
 ``` javascript
     const tempo='2';
     const tamanho='1';
-    const categoria = 'saude'; 
+    const categoria = 'saude';
     const containerId ='campanha-container';
 ```
 
@@ -48,7 +50,7 @@ Abaixo está uma tabela de definição com os detalhes:
 &nbsp;
 ### Descrição
 
-```containerId``` : Define o [ID](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Global_attributes/id) do elemento que receberá a campanha. 
+```containerId``` : Define o [ID](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Global_attributes/id) do elemento que receberá a campanha.
 &nbsp;
 
 ```categoria``` : Define a categoria das campanhas que serão exibidas. Ex. ```saude```, ```social```. Ainda em prototipação!
@@ -61,11 +63,10 @@ Abaixo está uma tabela de definição com os detalhes:
 &nbsp;
 
  #### Tamanhos
- 
+
  | Tamanho | Dimensões |
  | ------- | --------- |
  | 1       | 720x90    |
  | 2       | 420x350   |
  | 3       | 262x90    |
  | 4       | 524x90    |
- 
