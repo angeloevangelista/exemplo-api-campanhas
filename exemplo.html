@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Exemplo API Campanhas</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="text/javascript">
+    const tempo = '10';
+    const tamanho = '4';
+    const categoria = ''; //ainda em construção
+    const containerId = 'campanha-container';
+
+    (function () {
+      var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+      s1.async = true;
+      s1.src = `http://www.eprofessionalti.com/api/scripts/campanhas?containerId=${containerId}&tempo=${tempo}&tamanho=${tamanho}&categoria=${categoria}`;
+      s0.parentNode.insertBefore(s1, s0);
+    })();
+  </script>
+</head>
+
+<body>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    #campanha-container {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+
+    @media screen and (max-width: 720px) {
+      #campanha-container {
+        visibility: hidden;
+      }
+    }
+  </style>
+  <div id="campanha-container"></div>
+</body>
+
+</html>
