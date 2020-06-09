@@ -18,7 +18,7 @@ Você encontrará um exemplo físico [aqui](https://github.com/angeloevangelista
         (function () {
             var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
             s1.async = true;
-            s1.src = `http://www.eprofessionalti.com/api/scripts/campanhas?container=${containerIdEp}&tempo=${tempoEp}&tamanho=${tamanhoEp}&categoria=${categoriaEp}`;
+            s1.src = `https://www.eprofessionalti.com/api/scripts/campanhas?container=${containerIdEp}&tempo=${tempoEp}&tamanho=${tamanhoEp}&categoria=${categoriaEp}`;
             s0.parentNode.insertBefore(s1, s0);
         })();
     </script>
