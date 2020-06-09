@@ -10,15 +10,15 @@ Você encontrará um exemplo físico [aqui](https://github.com/angeloevangelista
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="text/javascript">
 
-    const tempo='2';
-    const tamanho='1';
-    const categoria = 'saude';
-    const containerId ='campanha-container';
+    const tempoEp='2';
+    const tamanhoEp='1';
+    const categoriaEp = 'saude';
+    const containerIdEp ='campanha-container';
 
         (function () {
             var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
             s1.async = true;
-            s1.src = `http://www.eprofessionalti.com/api/scripts/campanhas?container=${containerId}&tempo=${tempo}&tamanho=${tamanho}&categoria=${categoria}`;
+            s1.src = `http://www.eprofessionalti.com/api/scripts/campanhas?container=${containerIdEp}&tempo=${tempoEp}&tamanho=${tamanhoEp}&categoria=${categoriaEp}`;
             s0.parentNode.insertBefore(s1, s0);
         })();
     </script>
