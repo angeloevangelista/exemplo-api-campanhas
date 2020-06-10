@@ -32,39 +32,39 @@ Para carregar as propagandas é necessário incluir este trecho de código [Java
 Note que no trecho de código há algums parâmetros:
 
 ``` javascript
-    const tempo='2';
-    const tamanho='1';
-    const categoria = 'saude';
-    const containerId ='campanha-container';
+    const tempoEp='2';
+    const tamanhoEp='1';
+    const categoriaEp = 'saude';
+    const containerIdEp ='campanha-container';
 ```
 
 Abaixo está uma tabela de definição com os detalhes:
 
 |   Parâmeto  | Tipo    | Obrigatório            | Valor Padrão
 | ----------- |---------| ---------------------- | -------
-| tempo       | int     |                        | <center>```20```</center>
-| tamanho     | int     |                        | <center>```1```</center>
-| categoria   | string  |                        | <center>```saude```</center>
-| containerId | string  |<center>**Sim**</center>| <center>```undefined```</center>
+| tempoEp       | int     |                        | <center>```20```</center>
+| tamanhoEp     | int     |                        | <center>```1```</center>
+| categoriaEp   | string  |                        | <center>```saude```</center>
+| containerIdEp | string  |<center>**Sim**</center>| <center>```undefined```</center>
 
 &nbsp;
 ### Descrição
 
-```containerId``` : Define o [ID](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Global_attributes/id) do elemento que receberá a campanha.
+```containerIdEp``` : Define o [ID](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Global_attributes/id) do elemento que receberá a campanha.
 &nbsp;
 
-```categoria``` : Define a categoria das campanhas que serão exibidas. Ex. ```saude```, ```social```. Ainda em prototipação!
+```categoriaEp``` : Define a categoria das campanhas que serão exibidas. Ex. ```saude```, ```social```. Ainda em prototipação!
 &nbsp;
 
-```tempo``` : Intervalo, em segundos, de atualização das campanhas.
+```tempoEp``` : Intervalo, em segundos, de atualização das campanhas.
 &nbsp;
 
-```tamanho``` : Define o tamanho da imagem que será renderizada. Intervalo de 1 a 4.
+```tamanhoEp``` : Define o tamanho da imagem que será renderizada. Intervalo de 1 a 4.
 &nbsp;
 
  #### Tamanhos
 
- | Tamanho | Dimensões |
+ | Tamanho | Resolução |
  | ------- | --------- |
  | 1       | 720x90    |
  | 2       | 420x350   |
