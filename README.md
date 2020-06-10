@@ -10,8 +10,8 @@ Você encontrará um exemplo físico [aqui](https://github.com/angeloevangelista
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script type="text/javascript">
 
-    const tempoEp='2';
-    const tamanhoEp='1';
+    const tempoEp ='2';
+    const tamanhoEp ='1';
     const categoriaEp = 'saude';
     const containerIdEp ='campanha-container';
 
@@ -32,8 +32,8 @@ Para carregar as propagandas é necessário incluir este trecho de código [Java
 Note que no trecho de código há algums parâmetros:
 
 ``` javascript
-    const tempoEp='2';
-    const tamanhoEp='1';
+    const tempoEp ='2';
+    const tamanhoEp ='1';
     const categoriaEp = 'saude';
     const containerIdEp ='campanha-container';
 ```
